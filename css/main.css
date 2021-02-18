@@ -31,8 +31,13 @@
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
+html, body {
+	min-width: 320px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
 html, body, a, h1, h6, p, ul {
-	margin: 0;
+	/*margin: 0;*/
 	padding: 0;
 	text-decoration: none;
 }
